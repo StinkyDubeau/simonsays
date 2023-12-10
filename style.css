@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+button {
+    height: 200px;
+    width: 200px;
+
+    border: 2px black solid;
+    border-radius: 25px;
+}
+
+.link {
+    color: gold;
+    text-decoration: underline dotted;
+}
+
+
+.gre {
+    background-color: rgb(24, 177, 93)
+}
+.red {
+    background-color: rgb(241, 93, 93);
+}
+.yel {
+    background-color: rgb(233, 233, 37);
+}
+.blu {
+    background-color: rgb(78, 78, 194);
+}
+
+.wrong {
+    background-color: red;
+}
+
+.pressed {
+    background-color: rgba(255, 255, 255, 0.75);
+}
